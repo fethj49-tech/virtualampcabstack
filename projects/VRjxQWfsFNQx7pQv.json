@@ -1,0 +1,1318 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "2f07b5e3-2a93-4b97-873a-0697af2ea21a",
+        "text": {
+          "ops": [
+            {
+              "insert": "Keytar Presets (Copy)"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "d9cdc7e5-2b52-4fd3-94f6-a397b433ab7e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sample • Gospel Glory",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@key01": {
+                "type": "Select",
+                "optionId": "key-c"
+              },
+              "@scale": "Major",
+              "@sample": {
+                "type": "Select",
+                "optionId": "sample-data"
+              },
+              "@m0de1": {
+                "type": "Select",
+                "optionId": "chords"
+              },
+              "@fx": "reverb, chorus",
+              "@lyrics": "The Story All Along",
+              "@harm": "third, fifth",
+              "@prog1": "C | F | Am | G",
+              "@tempo": 92,
+              "@qName": "Sample • Gospel Glory",
+              "@pickup": {
+                "type": "Select",
+                "optionId": "both"
+              },
+              "@tone1": {
+                "type": "Select",
+                "optionId": "warm-ep"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bd1e0072-522d-4202-82a4-4a9614054b32",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sample • Pickup Truck Country",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@key01": {
+                "type": "Select",
+                "optionId": "key-g"
+              },
+              "@scale": "Major",
+              "@sample": {
+                "type": "Select",
+                "optionId": "sample-data"
+              },
+              "@m0de1": {
+                "type": "Select",
+                "optionId": "freeplay"
+              },
+              "@fx": "overdrive, delay",
+              "@harm": "off",
+              "@prog1": "G | D | Em | C",
+              "@tempo": 104,
+              "@qName": "Sample • Pickup Truck Country",
+              "@pickup": {
+                "type": "Select",
+                "optionId": "bridge"
+              },
+              "@tone1": {
+                "type": "Select",
+                "optionId": "hollow-body"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "44f3da87-cb73-416b-b718-968427013f3d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sample • Hijaz Lift",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@key01": {
+                "type": "Select",
+                "optionId": "key-d"
+              },
+              "@scale": "Hijaz",
+              "@sample": {
+                "type": "Select",
+                "optionId": "sample-data"
+              },
+              "@m0de1": {
+                "type": "Select",
+                "optionId": "scales"
+              },
+              "@fx": "chorus, reverb",
+              "@harm": "off",
+              "@prog1": "Dm | Eb | A7",
+              "@tempo": 110,
+              "@qName": "Sample • Hijaz Lift",
+              "@pickup": {
+                "type": "Select",
+                "optionId": "neck"
+              },
+              "@tone1": {
+                "type": "Select",
+                "optionId": "glass-lead"
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@qName": {
+            "id": "/attributes/@qName",
+            "fieldPath": "/attributes/@qName",
+            "rank": "z"
+          },
+          "/attributes/@m0de1": {
+            "id": "/attributes/@m0de1",
+            "fieldPath": "/attributes/@m0de1",
+            "rank": "zV"
+          },
+          "/attributes/@key01": {
+            "id": "/attributes/@key01",
+            "fieldPath": "/attributes/@key01",
+            "rank": "zk"
+          },
+          "/attributes/@scale": {
+            "id": "/attributes/@scale",
+            "fieldPath": "/attributes/@scale",
+            "rank": "zs"
+          },
+          "/attributes/@tempo": {
+            "id": "/attributes/@tempo",
+            "fieldPath": "/attributes/@tempo",
+            "rank": "zw"
+          },
+          "/attributes/@tone1": {
+            "id": "/attributes/@tone1",
+            "fieldPath": "/attributes/@tone1",
+            "rank": "zy"
+          },
+          "/attributes/@pickup": {
+            "id": "/attributes/@pickup",
+            "fieldPath": "/attributes/@pickup",
+            "rank": "zz"
+          },
+          "/attributes/@fx": {
+            "id": "/attributes/@fx",
+            "fieldPath": "/attributes/@fx",
+            "rank": "zzV"
+          },
+          "/attributes/@harm": {
+            "id": "/attributes/@harm",
+            "fieldPath": "/attributes/@harm",
+            "rank": "zzk"
+          },
+          "/attributes/@prog1": {
+            "id": "/attributes/@prog1",
+            "fieldPath": "/attributes/@prog1",
+            "rank": "zzs"
+          },
+          "/attributes/@lyrics": {
+            "id": "/attributes/@lyrics",
+            "fieldPath": "/attributes/@lyrics",
+            "rank": "zzw"
+          },
+          "/attributes/@sample": {
+            "id": "/attributes/@sample",
+            "fieldPath": "/attributes/@sample",
+            "rank": "zzy"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@qName": {
+            "id": "/attributes/@qName",
+            "fieldPath": "/attributes/@qName",
+            "rank": "z"
+          },
+          "/attributes/@m0de1": {
+            "id": "/attributes/@m0de1",
+            "fieldPath": "/attributes/@m0de1",
+            "rank": "zV"
+          },
+          "/attributes/@key01": {
+            "id": "/attributes/@key01",
+            "fieldPath": "/attributes/@key01",
+            "rank": "zk"
+          },
+          "/attributes/@scale": {
+            "id": "/attributes/@scale",
+            "fieldPath": "/attributes/@scale",
+            "rank": "zs"
+          },
+          "/attributes/@tempo": {
+            "id": "/attributes/@tempo",
+            "fieldPath": "/attributes/@tempo",
+            "rank": "zw"
+          },
+          "/attributes/@tone1": {
+            "id": "/attributes/@tone1",
+            "fieldPath": "/attributes/@tone1",
+            "rank": "zy"
+          },
+          "/attributes/@pickup": {
+            "id": "/attributes/@pickup",
+            "fieldPath": "/attributes/@pickup",
+            "rank": "zz"
+          },
+          "/attributes/@fx": {
+            "id": "/attributes/@fx",
+            "fieldPath": "/attributes/@fx",
+            "rank": "zzV"
+          },
+          "/attributes/@harm": {
+            "id": "/attributes/@harm",
+            "fieldPath": "/attributes/@harm",
+            "rank": "zzk"
+          },
+          "/attributes/@prog1": {
+            "id": "/attributes/@prog1",
+            "fieldPath": "/attributes/@prog1",
+            "rank": "zzs"
+          },
+          "/attributes/@lyrics": {
+            "id": "/attributes/@lyrics",
+            "fieldPath": "/attributes/@lyrics",
+            "rank": "zzw"
+          },
+          "/attributes/@sample": {
+            "id": "/attributes/@sample",
+            "fieldPath": "/attributes/@sample",
+            "rank": "zzy"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@qName": {
+            "id": "/attributes/@qName",
+            "fieldPath": "/attributes/@qName",
+            "rank": "z"
+          },
+          "/attributes/@m0de1": {
+            "id": "/attributes/@m0de1",
+            "fieldPath": "/attributes/@m0de1",
+            "rank": "zV"
+          },
+          "/attributes/@key01": {
+            "id": "/attributes/@key01",
+            "fieldPath": "/attributes/@key01",
+            "rank": "zk"
+          },
+          "/attributes/@scale": {
+            "id": "/attributes/@scale",
+            "fieldPath": "/attributes/@scale",
+            "rank": "zs"
+          },
+          "/attributes/@tempo": {
+            "id": "/attributes/@tempo",
+            "fieldPath": "/attributes/@tempo",
+            "rank": "zw"
+          },
+          "/attributes/@tone1": {
+            "id": "/attributes/@tone1",
+            "fieldPath": "/attributes/@tone1",
+            "rank": "zy"
+          },
+          "/attributes/@pickup": {
+            "id": "/attributes/@pickup",
+            "fieldPath": "/attributes/@pickup",
+            "rank": "zz"
+          },
+          "/attributes/@fx": {
+            "id": "/attributes/@fx",
+            "fieldPath": "/attributes/@fx",
+            "rank": "zzV"
+          },
+          "/attributes/@harm": {
+            "id": "/attributes/@harm",
+            "fieldPath": "/attributes/@harm",
+            "rank": "zzk"
+          },
+          "/attributes/@prog1": {
+            "id": "/attributes/@prog1",
+            "fieldPath": "/attributes/@prog1",
+            "rank": "zzs"
+          },
+          "/attributes/@lyrics": {
+            "id": "/attributes/@lyrics",
+            "fieldPath": "/attributes/@lyrics",
+            "rank": "zzw"
+          },
+          "/attributes/@sample": {
+            "id": "/attributes/@sample",
+            "fieldPath": "/attributes/@sample",
+            "rank": "zzy"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@qName": {
+            "id": "/attributes/@qName",
+            "fieldPath": "/attributes/@qName",
+            "rank": "z"
+          },
+          "/attributes/@m0de1": {
+            "id": "/attributes/@m0de1",
+            "fieldPath": "/attributes/@m0de1",
+            "rank": "zV"
+          },
+          "/attributes/@key01": {
+            "id": "/attributes/@key01",
+            "fieldPath": "/attributes/@key01",
+            "rank": "zk"
+          },
+          "/attributes/@scale": {
+            "id": "/attributes/@scale",
+            "fieldPath": "/attributes/@scale",
+            "rank": "zs"
+          },
+          "/attributes/@tempo": {
+            "id": "/attributes/@tempo",
+            "fieldPath": "/attributes/@tempo",
+            "rank": "zw"
+          },
+          "/attributes/@tone1": {
+            "id": "/attributes/@tone1",
+            "fieldPath": "/attributes/@tone1",
+            "rank": "zy"
+          },
+          "/attributes/@pickup": {
+            "id": "/attributes/@pickup",
+            "fieldPath": "/attributes/@pickup",
+            "rank": "zz"
+          },
+          "/attributes/@fx": {
+            "id": "/attributes/@fx",
+            "fieldPath": "/attributes/@fx",
+            "rank": "zzV"
+          },
+          "/attributes/@harm": {
+            "id": "/attributes/@harm",
+            "fieldPath": "/attributes/@harm",
+            "rank": "zzk"
+          },
+          "/attributes/@prog1": {
+            "id": "/attributes/@prog1",
+            "fieldPath": "/attributes/@prog1",
+            "rank": "zzs"
+          },
+          "/attributes/@lyrics": {
+            "id": "/attributes/@lyrics",
+            "fieldPath": "/attributes/@lyrics",
+            "rank": "zzw"
+          },
+          "/attributes/@sample": {
+            "id": "/attributes/@sample",
+            "fieldPath": "/attributes/@sample",
+            "rank": "zzy"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@qName": {
+            "id": "/attributes/@qName",
+            "fieldPath": "/attributes/@qName",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@m0de1": {
+            "id": "/attributes/@m0de1",
+            "fieldPath": "/attributes/@m0de1",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@key01": {
+            "id": "/attributes/@key01",
+            "fieldPath": "/attributes/@key01",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@scale": {
+            "id": "/attributes/@scale",
+            "fieldPath": "/attributes/@scale",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@tempo": {
+            "id": "/attributes/@tempo",
+            "fieldPath": "/attributes/@tempo",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@tone1": {
+            "id": "/attributes/@tone1",
+            "fieldPath": "/attributes/@tone1",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@pickup": {
+            "id": "/attributes/@pickup",
+            "fieldPath": "/attributes/@pickup",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@fx": {
+            "id": "/attributes/@fx",
+            "fieldPath": "/attributes/@fx",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@harm": {
+            "id": "/attributes/@harm",
+            "fieldPath": "/attributes/@harm",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@prog1": {
+            "id": "/attributes/@prog1",
+            "fieldPath": "/attributes/@prog1",
+            "rank": "zzs",
+            "hidden": false
+          },
+          "/attributes/@lyrics": {
+            "id": "/attributes/@lyrics",
+            "fieldPath": "/attributes/@lyrics",
+            "rank": "zzw",
+            "hidden": false
+          },
+          "/attributes/@sample": {
+            "id": "/attributes/@sample",
+            "fieldPath": "/attributes/@sample",
+            "rank": "zzy",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@qName": {
+            "id": "/attributes/@qName",
+            "fieldPath": "/attributes/@qName",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@m0de1": {
+            "id": "/attributes/@m0de1",
+            "fieldPath": "/attributes/@m0de1",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@key01": {
+            "id": "/attributes/@key01",
+            "fieldPath": "/attributes/@key01",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@scale": {
+            "id": "/attributes/@scale",
+            "fieldPath": "/attributes/@scale",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@tempo": {
+            "id": "/attributes/@tempo",
+            "fieldPath": "/attributes/@tempo",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@tone1": {
+            "id": "/attributes/@tone1",
+            "fieldPath": "/attributes/@tone1",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@pickup": {
+            "id": "/attributes/@pickup",
+            "fieldPath": "/attributes/@pickup",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@fx": {
+            "id": "/attributes/@fx",
+            "fieldPath": "/attributes/@fx",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@harm": {
+            "id": "/attributes/@harm",
+            "fieldPath": "/attributes/@harm",
+            "rank": "zzk",
+            "hidden": false
+          },
+          "/attributes/@prog1": {
+            "id": "/attributes/@prog1",
+            "fieldPath": "/attributes/@prog1",
+            "rank": "zzs",
+            "hidden": false
+          },
+          "/attributes/@lyrics": {
+            "id": "/attributes/@lyrics",
+            "fieldPath": "/attributes/@lyrics",
+            "rank": "zzw",
+            "hidden": false
+          },
+          "/attributes/@sample": {
+            "id": "/attributes/@sample",
+            "fieldPath": "/attributes/@sample",
+            "rank": "zzy",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@key01": {
+        "type": "Select",
+        "displayName": "Key",
+        "options": {
+          "key-c": {
+            "id": "key-c",
+            "name": "C",
+            "color": "#DDB86C",
+            "rank": "0"
+          },
+          "key-cs": {
+            "id": "key-cs",
+            "name": "C♯ / D♭",
+            "color": "#D7A14F",
+            "rank": "1"
+          },
+          "key-d": {
+            "id": "key-d",
+            "name": "D",
+            "color": "#C9834D",
+            "rank": "2"
+          },
+          "key-ds": {
+            "id": "key-ds",
+            "name": "D♯ / E♭",
+            "color": "#B96660",
+            "rank": "3"
+          },
+          "key-e": {
+            "id": "key-e",
+            "name": "E",
+            "color": "#AA6686",
+            "rank": "4"
+          },
+          "key-f": {
+            "id": "key-f",
+            "name": "F",
+            "color": "#8C75A5",
+            "rank": "5"
+          },
+          "key-fs": {
+            "id": "key-fs",
+            "name": "F♯ / G♭",
+            "color": "#6F8CAF",
+            "rank": "6"
+          },
+          "key-g": {
+            "id": "key-g",
+            "name": "G",
+            "color": "#579FA8",
+            "rank": "7"
+          },
+          "key-gs": {
+            "id": "key-gs",
+            "name": "G♯ / A♭",
+            "color": "#5BA67C",
+            "rank": "8"
+          },
+          "key-a": {
+            "id": "key-a",
+            "name": "A",
+            "color": "#8CA64D",
+            "rank": "9"
+          },
+          "key-as": {
+            "id": "key-as",
+            "name": "A♯ / B♭",
+            "color": "#C0A64D",
+            "rank": "10"
+          },
+          "key-b": {
+            "id": "key-b",
+            "name": "B",
+            "color": "#D08A50",
+            "rank": "11"
+          }
+        }
+      },
+      "@scale": {
+        "type": "string",
+        "displayName": "Scale"
+      },
+      "@sample": {
+        "type": "Select",
+        "displayName": "Sample",
+        "options": {
+          "sample-data": {
+            "id": "sample-data",
+            "name": "Sample data",
+            "color": "#8C75A5",
+            "rank": "0"
+          },
+          "personal": {
+            "id": "personal",
+            "name": "Personal",
+            "color": "#579FA8",
+            "rank": "1"
+          }
+        }
+      },
+      "@m0de1": {
+        "type": "Select",
+        "displayName": "Mode",
+        "options": {
+          "freeplay": {
+            "id": "freeplay",
+            "name": "Freeplay",
+            "color": "#CC9B42",
+            "rank": "0"
+          },
+          "chords": {
+            "id": "chords",
+            "name": "Chords",
+            "color": "#47AFC4",
+            "rank": "1"
+          },
+          "scales": {
+            "id": "scales",
+            "name": "Scales",
+            "color": "#B88BC5",
+            "rank": "2"
+          },
+          "key-mode": {
+            "id": "key-mode",
+            "name": "Key Mode",
+            "color": "#E0835A",
+            "rank": "3"
+          }
+        }
+      },
+      "@fx": {
+        "type": "string",
+        "displayName": "FX Chain"
+      },
+      "@lyrics": {
+        "type": "string",
+        "displayName": "Lyrics"
+      },
+      "@harm": {
+        "type": "string",
+        "displayName": "Harmony"
+      },
+      "@prog1": {
+        "type": "string",
+        "displayName": "Progression"
+      },
+      "@tempo": {
+        "type": "number",
+        "displayName": "Tempo",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@qName": {
+        "type": "string",
+        "displayName": "Name"
+      },
+      "@pickup": {
+        "type": "Select",
+        "displayName": "Pickup",
+        "options": {
+          "neck": {
+            "id": "neck",
+            "name": "Neck",
+            "color": "#6F8CAF",
+            "rank": "0"
+          },
+          "both": {
+            "id": "both",
+            "name": "Both",
+            "color": "#CC9B42",
+            "rank": "1"
+          },
+          "bridge": {
+            "id": "bridge",
+            "name": "Bridge",
+            "color": "#E0835A",
+            "rank": "2"
+          }
+        }
+      },
+      "@tone1": {
+        "type": "Select",
+        "displayName": "Tone",
+        "options": {
+          "glass-lead": {
+            "id": "glass-lead",
+            "name": "Glass Lead",
+            "color": "#47AFC4",
+            "rank": "0"
+          },
+          "warm-ep": {
+            "id": "warm-ep",
+            "name": "Warm EP",
+            "color": "#CC9B42",
+            "rank": "1"
+          },
+          "hard-rock": {
+            "id": "hard-rock",
+            "name": "Hard Rock",
+            "color": "#E0835A",
+            "rank": "2"
+          },
+          "hollow-body": {
+            "id": "hollow-body",
+            "name": "Hollow Body",
+            "color": "#B88BC5",
+            "rank": "3"
+          },
+          "plucked-string": {
+            "id": "plucked-string",
+            "name": "Plucked String",
+            "color": "#82B59B",
+            "rank": "4"
+          },
+          "analog-bass": {
+            "id": "analog-bass",
+            "name": "Analog Bass",
+            "color": "#6F8CAF",
+            "rank": "5"
+          },
+          "square-lead": {
+            "id": "square-lead",
+            "name": "Square Lead",
+            "color": "#D08A50",
+            "rank": "6"
+          },
+          "soft-pad": {
+            "id": "soft-pad",
+            "name": "Soft Pad",
+            "color": "#8C75A5",
+            "rank": "7"
+          },
+          "chime": {
+            "id": "chime",
+            "name": "Chime",
+            "color": "#DDB86C",
+            "rank": "8"
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "🛰️"
+    }
+  }
+}

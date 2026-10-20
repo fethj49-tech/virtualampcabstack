@@ -1,0 +1,63 @@
+{
+  "version": "1",
+  "name": "Restock Advisor",
+  "commands": [
+    {
+      "id": "recommend-reorders",
+      "mode": "default",
+      "name": "Recommend Reorders",
+      "prompt": "Using sales velocity and on-hand inventory, recommend what to reorder this week. For each item: current stock, days of cover left, recommended quantity, and the math behind it.",
+      "isBackgroundJob": false
+    },
+    {
+      "id": "show-low-stock",
+      "mode": "default",
+      "name": "Show Low-Stock Items",
+      "prompt": "List every item about to stock out, sorted by how soon. For each, show on-hand count, recent sell-through rate, and the date it runs out at the current pace.",
+      "isBackgroundJob": false
+    },
+    {
+      "id": "draft-purchase-order",
+      "mode": "default",
+      "name": "Draft a Purchase Order",
+      "prompt": "Draft a purchase order for the items that need restocking. Group by supplier, include quantities and unit costs from the cost project, and total it. Format it ready to send.",
+      "isBackgroundJob": false
+    }
+  ],
+  "description": "You compute restock recommendations from the operator's sales velocity and on-hand inventory projects, flag items about to stock out, and draft a reorder list with quantities. Show your math against the connected cost and inventory data.",
+  "toolbox": [
+    {
+      "id": "01M556XCDX3J6021DNE31D5AVA",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01M556XCDYKJTVJ69072085Z4M",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "avatar": {
+    "data": {
+      "value": "📦"
+    },
+    "type": "emoji"
+  }
+}

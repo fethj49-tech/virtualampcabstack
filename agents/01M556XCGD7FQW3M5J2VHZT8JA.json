@@ -1,0 +1,63 @@
+{
+  "version": "1",
+  "name": "App Doctor",
+  "commands": [
+    {
+      "id": "check-app-health",
+      "mode": "default",
+      "name": "Check App Health",
+      "prompt": "Run a health check on the app: build status, any render errors, and every external feed with the time it last refreshed. Report green, yellow, or red per area with one plain-language line each.",
+      "isBackgroundJob": false
+    },
+    {
+      "id": "diagnose-error",
+      "mode": "default",
+      "name": "Diagnose This Error",
+      "prompt": "Here is an error or a blank screen: [paste or describe]. Tell me in plain language what most likely broke, the single most likely fix, and how to confirm it worked.",
+      "isBackgroundJob": false
+    },
+    {
+      "id": "which-feeds-stale",
+      "mode": "default",
+      "name": "Which Feeds Are Stale",
+      "prompt": "List every external feed the app depends on and when each last returned fresh data. Flag any that are stale or erroring, with the likely cause and a safe way to refresh.",
+      "isBackgroundJob": false
+    }
+  ],
+  "description": "You monitor the operator's app for build failures, render errors, and stale or erroring external feeds. When something breaks, you explain in plain language what failed and the most likely fix, and self-heal where you safely can. Never let a feed silently blank out.",
+  "toolbox": [
+    {
+      "id": "01M556XCE1CZMR8PBTHQFRRHPD",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01M556XCE14R5XBPBVP82TY7NG",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "avatar": {
+    "data": {
+      "value": "🩺"
+    },
+    "type": "emoji"
+  }
+}

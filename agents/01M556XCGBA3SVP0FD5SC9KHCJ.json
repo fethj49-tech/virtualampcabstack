@@ -1,0 +1,63 @@
+{
+  "version": "1",
+  "name": "Watch-Floor Briefer",
+  "commands": [
+    {
+      "id": "todays-briefing",
+      "mode": "default",
+      "name": "Write Today's Briefing",
+      "prompt": "Read every connected ops project and write today's briefing. Lead with anything that breached a threshold or needs a human today. Format: 3 to 5 short bullets, each with the project, what changed, and the one action you recommend.",
+      "isBackgroundJob": false
+    },
+    {
+      "id": "what-changed",
+      "mode": "default",
+      "name": "What Changed Since Yesterday",
+      "prompt": "Compare the connected projects to where they stood yesterday. List only the deltas: new rows, status flips, and anything that moved into an urgent window. Keep it to one screen.",
+      "isBackgroundJob": false
+    },
+    {
+      "id": "flag-urgent",
+      "mode": "default",
+      "name": "Flag What's Urgent Now",
+      "prompt": "Scan the ops projects right now and surface only the items that need action in the next few hours. Rank by urgency, give the reason, and name who should own each one.",
+      "isBackgroundJob": false
+    }
+  ],
+  "description": "You watch the operator's live ops projects (orders, vessels, inventory, risk feeds) and every morning, or whenever asked, write a tight briefing of what moved and what needs a human today. Read the connected projects as your source of truth and lead with the items that breached a threshold.",
+  "toolbox": [
+    {
+      "id": "01M556XCBRDHGESNXQXCRTFBER",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01M556XCBS784C0VYBHD7SRX6E",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "avatar": {
+    "data": {
+      "value": "📰"
+    },
+    "type": "emoji"
+  }
+}

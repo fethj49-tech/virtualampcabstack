@@ -1,0 +1,150 @@
+/* Genesis palette family: Ivory Ink [ivory-ink]
+   Editorial ivory paper against near-black ink, one vermilion accent. Refine on-family: keep these hues and relight them; never swap to a generic indigo/blue SaaS palette.
+   This seed is a starting point, not a mandate: when the app's subject clearly
+   calls for a different mood (game HUD, trading terminal, cinema and media all
+   read dark-anchored), retheme deliberately to match the subject - but BOTH
+   theme blocks must keep working. Dark-anchored means the dark scene leads;
+   `:root` stays a usable LIGHT rendering of the same scene (light surfaces,
+   dark foregrounds, same hue family). A `:root` that copies the dark values
+   leaves the app with no light theme. Either way, add your own one-line palette
+   rationale comment below this header. */
+/* Tailwind CSS v3 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Pair the UA color-scheme with the theme so native scrollbars, form
+       controls, and the canvas match. Without this a dark-themed app paints
+       light native scrollbars (visible when embedded on dark surfaces). */
+    color-scheme: light;
+    --background: 45 45% 98%;
+    --foreground: 240 18% 9%;
+    --muted: 45 30% 92%;
+    --muted-foreground: 240 8% 38%;
+    --popover: 45 50% 99%;
+    --popover-foreground: 240 18% 11%;
+    --border: 45 20% 86%;
+    --input: 45 20% 84%;
+    --card: 45 52% 99%;
+    --card-foreground: 240 18% 10%;
+    --primary: 15 82% 42%;
+    --primary-foreground: 40 90% 98%;
+    --secondary: 45 28% 93%;
+    --secondary-foreground: 240 16% 16%;
+    --accent: 15 55% 93%;
+    --accent-foreground: 15 70% 28%;
+    --destructive: 355 74% 44%;
+    --destructive-foreground: 40 80% 98%;
+    --ring: 15 76% 50%;
+    --radius: 0.5rem;
+    --chart-1: 15 80% 52%;
+    --chart-2: 45 62% 46%;
+    --chart-3: 200 30% 40%;
+    --chart-4: 100 26% 42%;
+    --chart-5: 330 40% 50%;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --background: 240 10% 6%;
+    --foreground: 45 24% 91%;
+    --muted: 240 8% 12%;
+    --muted-foreground: 45 10% 62%;
+    --accent: 15 40% 15%;
+    --accent-foreground: 15 80% 68%;
+    --popover: 240 10% 8%;
+    --popover-foreground: 45 20% 88%;
+    --border: 240 8% 16%;
+    --input: 240 8% 17%;
+    --card: 240 10% 7%;
+    --card-foreground: 45 22% 90%;
+    --primary: 15 85% 60%;
+    --primary-foreground: 15 60% 9%;
+    --secondary: 240 8% 14%;
+    --secondary-foreground: 45 18% 88%;
+    --destructive: 355 62% 38%;
+    --destructive-foreground: 40 70% 97%;
+    --ring: 15 80% 58%;
+    --chart-1: 15 80% 52%;
+    --chart-2: 45 62% 46%;
+    --chart-3: 200 30% 40%;
+    --chart-4: 100 26% 42%;
+    --chart-5: 330 40% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+:root {
+  --sidebar: hsl(45 38% 96%);
+  --sidebar-foreground: hsl(240 14% 20%);
+  --sidebar-primary: hsl(15 82% 41%);
+  --sidebar-primary-foreground: hsl(40 88% 97%);
+  --sidebar-accent: hsl(15 50% 91%);
+  --sidebar-accent-foreground: hsl(15 68% 26%);
+  --sidebar-border: hsl(45 18% 84%);
+  --sidebar-ring: hsl(15 76% 49%);
+}
+
+.dark {
+  --sidebar: hsl(240 10% 9%);
+  --sidebar-foreground: hsl(45 16% 85%);
+  --sidebar-primary: hsl(15 83% 59%);
+  --sidebar-primary-foreground: hsl(15 55% 11%);
+  --sidebar-accent: hsl(15 38% 16%);
+  --sidebar-accent-foreground: hsl(15 78% 66%);
+  --sidebar-border: hsl(240 8% 18%);
+  --sidebar-ring: hsl(15 78% 57%);
+}
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Full screen spinner styles */
+.genesis__spinner-container {
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.genesis__spinner-ring {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid transparent;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  animation: genesis__spin 1s linear infinite;
+}
+
+@keyframes genesis__spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .genesis__spinner-ring {
+    animation: none;
+    border-top-color: rgba(255, 255, 255, 0.9);
+  }
+}
